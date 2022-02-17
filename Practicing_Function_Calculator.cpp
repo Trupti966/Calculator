@@ -82,6 +82,7 @@ int main()
 				cout<<"Enter second number: ";
 				cin>>b;
 				
+				//Exception Handling
 				try{
 					if(b==0)
 					throw b;
@@ -91,7 +92,6 @@ int main()
 				catch (int x){
 					cout<<"Can not divide by "<<x;
 					}
-					
 				getch();
 				break;
 			case 5:
